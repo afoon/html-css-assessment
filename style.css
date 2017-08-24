@@ -108,6 +108,7 @@ h2{
     .twitter-2{
         display: none;
     }
+}
 @media (max-width: 700px){
     .nav-link{
         display: none;
