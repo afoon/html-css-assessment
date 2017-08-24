@@ -1,0 +1,115 @@
+body{
+    font-family: sans-serif;
+    color: white;
+    background-image: url("img/main-bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p{
+    display: inline;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 700;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2px;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    padding: 5px;
+}
+.nav-icon{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+    border: 2px white;
+    border-style: solid;
+    vertical-align: center;
+    background-color: transparent;
+    margin: 0;
+    position: fixed;
+    top:10px;
+    left: 10px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.content-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    margin: 100px;
+}
+.down-arrow{
+    margin: 5px;
+    border-radius: 100%;
+    border: 2px border-solid white;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.twitter{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    float: right;
+    position: fixed;
+    top:10px;
+    right: 10px;
+}
+.twitter-2{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    float: right;
+    position: fixed;
+    top:10px;
+    right: 70px;
+}
+@media (min-width:700px){
+    .nav-icon{
+        display: none;
+    }
+    .twitter{
+        display: none;
+    }
+    .twitter-2{
+        display: none;
+    }
+@media (max-width: 700px){
+    .nav-link{
+        display: none;
+    }
+}
